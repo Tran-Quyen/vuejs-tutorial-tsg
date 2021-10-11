@@ -1,0 +1,25 @@
+$red: red;
+
+.home {
+  h1 {
+    color: $red;
+    text-align: center;
+  }
+
+  .hide {
+    color: #ccc;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+    &.active {
+      background-color: yellow;
+    }
+  }
+}
